@@ -3,9 +3,15 @@
 ## What is Clean Arch
 Clean Arch from [Uncle Bob](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html), Here are some rules:
 
-1. Independent of Frameworks. 
-2. Testable. 
-3. Independent of UI. 
-4. Independent of Database. 
-5. Independent of any external agency. 
+1. Independent of Frameworks
+2. Testable
+3. Independent of UI
+4. Independent of Database
+5. Independent of any external agency
 
+### Independent of Frameworks
+In the actual development process, we will use various frameworks。If our business and frameworks are deeply coupled, it can be very difficult to change frameworks. So we need a pattern to avoid business dependence on frameworks
+
+
+## Thanks
+bxcodec's project inspired me a lot(https://github.com/bxcodec/go-clean-arch), and I'd like to thank Uncle Bob for bringing us such a beautiful design
