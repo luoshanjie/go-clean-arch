@@ -15,6 +15,19 @@ In the actual development process, we will use various frameworks。If our busin
 ### Testable
 When our business is complex, testing will depend on outside input. It would be difficult to test a single component or business independently because the inputs and outputs are heavily dependent on other components. So we need to be testable
 
+### Independent of UI
+
+
+### Independent of Database
+
+
+### Independent of any external agency
+
+
+
+## Don't use Clean Arch
+If we don't use clean arch, Code becomes difficult to maintain as it becomes more functional. The best practice is not to use Clean Arch, and then as functionality increases, the code becomes decayed and difficult to maintain. The Clean Arch approach was then used for refactoring, making it easy to maintain and extend  
+
 
 ## Thanks
 bxcodec's project inspired me a lot(https://github.com/bxcodec/go-clean-arch), and I'd like to thank Uncle Bob for bringing us such a beautiful design. Thank you Uncle Bob and Bxcodec ^_^
