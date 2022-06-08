@@ -23,6 +23,15 @@ When our business is complex, testing will depend on outside input. It would be 
 
 ### Independent of any external agency
 
+## Clean Arch
+If we use clean arch, we can layer it as follows
+1. Domain Layer
+2. Delivery Layer
+3. Usercase Layer
+4. Repository Layer
+### Diagram
+![golang clean architecture](https://github.com/luoshanjie/go-clean-arch/raw/master/doc/clean-arch.png)
+
 
 
 ## Don't use Clean Arch
@@ -37,7 +46,7 @@ We will complete a simple functional Web service that will have the following ca
 4. Delete a user through interface (http://localhost/api/v1/user/:id/delete)
 
 ### Quick Finish
-We did this quickly and without using Clean Arch: [lesson_one](https://github.com/luoshanjie/go-clean-arch/tree/main/lesson_one)
+We did this quickly and without using Clean Arch: [lesson_one](https://github.com/luoshanjie/go-clean-arch/raw/main/lesson_one)
 
 
 ## Thanks
