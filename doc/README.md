@@ -24,7 +24,7 @@ When our business is complex, testing will depend on outside input. It would be 
 ### Independent of any external agency
 
 ## Clean Arch
-如果我们使用Clean Arch，我们可以这样分层
+当我们使用clean arch ，可以这样来分层:
 1. Domain Layer
 2. Delivery Layer
 3. Usercase Layer
