@@ -30,7 +30,7 @@ If we use clean arch, we can layer it as follows
 3. Usercase Layer
 4. Repository Layer
 ### Diagram
-![golang clean architecture](https://github.com/luoshanjie/go-clean-arch/raw/master/doc/clean-arch.png)
+![clean architecture](https://github.com/luoshanjie/go-clean-arch/blob/main/doc/clean-arch.png)
 
 
 
