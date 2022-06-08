@@ -10,7 +10,7 @@ Clean Arch from [Uncle Bob](https://8thlight.com/blog/uncle-bob/2012/08/13/the-c
 - Independent of any external agency
 
 ### Independent of Frameworks
-In the actual development process, we will use various frameworks。If our business and frameworks are deeply coupled, it can be very difficult to change frameworks. So we need a pattern to avoid business dependence on frameworks
+In the actual development process, we will use various frameworks. If our business and frameworks are deeply coupled, it can be very difficult to change frameworks. So we need a pattern to avoid business dependence on frameworks
 
 ### Testable
 When our business is complex, testing will depend on outside input. It would be difficult to test a single component or business independently because the inputs and outputs are heavily dependent on other components. So we need to be testable
