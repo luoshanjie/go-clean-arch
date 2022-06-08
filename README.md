@@ -37,7 +37,7 @@ We will complete a simple functional Web service that will have the following ca
 4. Delete a user through interface (http://localhost/api/v1/user/:id/delete)
 
 ### Quick Finish
-We did this quickly and without using Clean Arch: [lesson_one](https://github.com/luoshanjie/go-clean-arch/lesson_one)
+We did this quickly and without using Clean Arch: [lesson_one](https://github.com/luoshanjie/go-clean-arch/tree/main/lesson_one)
 
 
 ## Thanks
