@@ -1,8 +1,7 @@
 # go-clean-arch
-### English | [简体中文](https://github.com/luoshanjie/go-clean-arch/raw/master/doc/README.md)
----
-## What is Clean Arch
-Clean Arch from [Uncle Bob](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html), Here are some rules:
+
+## 什么是干净的架构 
+干净的架构来自于 [Uncle Bob](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html), 它包含以下几条规则:
 
 - Independent of Frameworks
 - Testable
