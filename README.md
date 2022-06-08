@@ -17,4 +17,4 @@ When our business is complex, testing will depend on outside input. It would be 
 
 
 ## Thanks
-bxcodec's project inspired me a lot(https://github.com/bxcodec/go-clean-arch), and I'd like to thank Uncle Bob for bringing us such a beautiful design. Thank you Uncle Bob and Bxcodec:-)
+bxcodec's project inspired me a lot(https://github.com/bxcodec/go-clean-arch), and I'd like to thank Uncle Bob for bringing us such a beautiful design. Thank you Uncle Bob and Bxcodec ^_^
