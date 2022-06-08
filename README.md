@@ -25,7 +25,7 @@ When our business is complex, testing will depend on outside input. It would be 
 ### Independent of any external agency
 
 ## Clean Arch
-If we use clean arch, we can layer it as follows
+When we use clean arch, we can layer in this way:
 1. Domain Layer
 2. Delivery Layer
 3. Usercase Layer
