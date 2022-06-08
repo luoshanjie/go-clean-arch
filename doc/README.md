@@ -9,11 +9,11 @@
 - 独立的数据库
 - 独立于任何外部组件
 
-### Independent of Frameworks
-In the actual development process, we will use various frameworks。If our business and frameworks are deeply coupled, it can be very difficult to change frameworks. So we need a pattern to avoid business dependence on frameworks
+### 独立的框架
+在实际的开发过程中，我们将使用各种框架。如果我们的业务和框架是深度耦合的，那么更改框架可能会非常困难。因此，我们需要一种模式来避免对框架的业务依赖
 
-### Testable
-When our business is complex, testing will depend on outside input. It would be difficult to test a single component or business independently because the inputs and outputs are heavily dependent on other components. So we need to be testable
+### 可测试性
+当我们的业务很复杂时，测试将依赖于外部输入。很难独立地测试单个组件或业务，因为输入和输出严重依赖于其他组件。所以我们需要是可测试的
 
 ### Independent of UI
 
@@ -33,11 +33,11 @@ When our business is complex, testing will depend on outside input. It would be 
 ![golang clean architecture](https://github.com/luoshanjie/go-clean-arch/blob/main/doc/clean-arch.png)
 
 
-## Don't use Clean Arch
-If we don't use clean arch, Code becomes difficult to maintain as it becomes more functional. The best practice is not to use Clean Arch, and then as functionality increases, the code becomes decayed and difficult to maintain. The Clean Arch approach was then used for refactoring, making it easy to maintain and extend  
+## 不使用Clean Arch
+如果我们不使用干净的arch，代码就会变得难以维护。最好的做法是不使用Clean Arch，然后随着功能的增加，代码就会退化，难以维护。然后，将Clean Arch用于重构，展示出使其易于维护和扩展的特点  
 
 ## 最佳实践
-### First Target
+### 第一个目标
 We will complete a simple functional Web service that will have the following capabilities
 1. Add a user through interface (http://localhost/api/v1/user/add)
 2. Modify user information through interface (http://localhost/api/v1/user/:id/update)
