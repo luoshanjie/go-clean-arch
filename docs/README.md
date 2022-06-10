@@ -30,7 +30,7 @@
 3. Usercase Layer
 4. Repository Layer
 ### Diagram
-![golang clean architecture](https://github.com/luoshanjie/go-clean-arch/blob/main/doc/clean-arch.png)
+![golang clean architecture](images/clean-arch.png)
 
 
 ## 不使用Clean Arch

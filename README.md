@@ -31,7 +31,7 @@ When we use clean arch, we can layer in this way:
 3. Usercase Layer
 4. Repository Layer
 ### Diagram
-![clean architecture](https://github.com/luoshanjie/go-clean-arch/blob/main/doc/clean-arch.png)
+![clean architecture](docs/images/clean-arch.png)
 
 
 
