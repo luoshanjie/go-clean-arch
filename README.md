@@ -17,12 +17,13 @@ In the actual development process, we will use various frameworks. If our busine
 When our business is complex, testing will depend on outside input. It would be difficult to test a single component or business independently because the inputs and outputs are heavily dependent on other components. So we need to be testable
 
 ### Independent of UI
-
+The UI is often modified, not only by elements that the user manipulates, but also by changing the display directly. For example, the Web interface can be modified to a command console interface
 
 ### Independent of Database
-
+Data storage sources also change as the business changes. We started with SQLite, then we switched to Access, and finally we switched to MySQL/PostgreSQL
 
 ### Independent of any external agency
+Our business needs to focus on the business itself and not be eroded by outsiders
 
 ## Clean Arch
 When we use clean arch, we can layer in this way:
