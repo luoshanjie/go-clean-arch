@@ -29,7 +29,7 @@ Our business needs to focus on the business itself and not be eroded by outsider
 When we use clean arch, we can layer in this way:
 1. Domain Layer
 2. Delivery Layer
-3. Usercase Layer
+3. Usecase Layer
 4. Repository Layer
 ### Diagram
 ![clean architecture](docs/images/clean-arch.png)
