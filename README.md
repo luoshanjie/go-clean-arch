@@ -1,5 +1,5 @@
 # go-clean-arch
-### English | [简体中文](https://github.com/luoshanjie/go-clean-arch/tree/main/doc)
+### English | [简体中文](https://github.com/luoshanjie/go-clean-arch/tree/main/docs)
 ---
 ## What is Clean Arch
 Clean Arch from [Uncle Bob](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html), Here are some rules:
