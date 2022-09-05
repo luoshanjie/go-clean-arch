@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
@@ -12,9 +13,15 @@ type User struct {
 	Age  int    `json:"age"`
 }
 
-var cache map[string]User
+var cache map[string]
 
 func handleAddUser(w http.ResponseWriter, r *http.Request) {
+	var user User
+	err := json.NewDecoder(r.Body).Decode(&user)
+	if err != nil {
+		return
+	}
+	fmt.Printf("%+v", user)
 
 	fmt.Fprint(w, "status response")
 }
