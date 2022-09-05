@@ -13,7 +13,7 @@ type User struct {
 	Age  int    `json:"age"`
 }
 
-var cache map[string]
+var cache map[string]User
 
 func handleAddUser(w http.ResponseWriter, r *http.Request) {
 	var user User
